@@ -1,16 +1,3 @@
-#豆瓣电影T250网站自动爬取项目
-# （2024.10.3首次运行成功；自动爬取250部电影的全部中文标题及相应评分）
-
-
-#项目技术
-#1、√ 网页爬取
-#2、√ 反爬     [user-agent池]
-#3、网页自动打开/关闭（非必要）
-#4、√ xpath工具
-#5、√ 自动翻页  [for循环]
-#6、√ Excel文件保存（自动化办公）
-
-
 import requests
 from lxml import etree
 import random
